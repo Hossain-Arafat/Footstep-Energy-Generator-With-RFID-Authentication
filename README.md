@@ -1,35 +1,33 @@
-# ⚡ Intelligent Footstep Energy Harvesting System with Secure RFID Authentication
+#  Intelligent Footstep Energy Harvesting System with Secure RFID Authentication
 
 An intelligent microcontroller-based energy harvesting system that converts kinetic energy from human footsteps into usable electrical energy and integrates secure RFID authentication for controlled device charging.
 
 ---
 
-## 📌 Overview
+##  Overview
 
 This project presents a sustainable and secure approach to energy harvesting in semi-crowded environments. The system uses multiple piezoelectric sensors to generate electricity from footsteps and incorporates RFID-based authentication to ensure only authorized users can access the charging system.
 
 Unlike traditional footstep generators, this system includes:
 
-- 🔋 Piezoelectric-based energy harvesting
-- 🔐 Secure RFID authentication (MFRC522)
-- 📊 Real-time voltage monitoring
-- 🧪 Simulation + Numerical + Experimental validation
-- 💰 Cost analysis and performance comparison
+- Piezoelectric-based energy harvesting
+- Secure RFID authentication (MFRC522)
+- Real-time voltage monitoring
 
 ---
 
-## 🎯 Key Achievements
+## Key Achievements
 
-- ⚡ 0.01V generated per step
-- 👣 370 steps required to reach 3.7V
-- 🔐 100% RFID authentication accuracy (50 tests)
-- 📈 Simulation and experimental results matched with ~1% error
-- ⏱ 2-hour continuous stability testing
-- 💰 Total system cost: 5057 BDT
+- 0.01V generated per step
+- 370 steps required to reach 3.7V
+- 100% RFID authentication accuracy (50 tests)
+- Simulation and experimental results matched with ~1% error
+- 2-hour continuous stability testing
+- Total system cost: 5000 BDT
 
 ---
 
-## 🧠 System Architecture
+## System Architecture
 
 ![Block Diagram](docs/Block_Diagram.png)
 
@@ -46,7 +44,7 @@ Unlike traditional footstep generators, this system includes:
 
 ---
 
-## 🔌 Hardware Components
+## Hardware Components
 
 ### Energy Harvesting Section
 - Arduino Uno (ATmega328P)
@@ -60,22 +58,22 @@ Unlike traditional footstep generators, this system includes:
 
 ### Authentication Section
 - RFID-RC522 Module
-- RFID Cards/Tags
+- RFID Cards
 
 ### Display
 - 16x2 I2C LCD Display
 
 ---
 
-## 🔌 Circuit Connections
+## Circuit Connections
 
 Full detailed connection guide available here:
 
-👉 [`hardware/circuit.md`](hardware/circuit.md)
+[`hardware/circuit.md`](hardware/circuit.md)
 
 ---
 
-## 💻 Software Implementation
+## Software Implementation
 
 Arduino code available at:
 
@@ -92,7 +90,7 @@ Install via Arduino Library Manager before uploading.
 
 ---
 
-## 📊 Results & Validation
+## Results & Validation
 
 ### Simulation Result
 
@@ -106,27 +104,11 @@ Install via Arduino Library Manager before uploading.
 |--------------|----------------------|
 | Simulation   | 3.70 V               |
 | Experimental | 3.71 V               |
-| Error Margin | ~1%                  |
+| Error Margin | ~1%                  |  
 
 ---
 
-## 💰 Cost Breakdown
-
-| Component            | Cost (BDT) |
-|---------------------|------------|
-| Arduino Uno         | 995        |
-| Piezoelectric Disks | 400        |
-| RFID Kit            | 539        |
-| LCD Display         | 340        |
-| Batteries           | 380        |
-| Other Components    | Remaining  |
-
-**Total Cost:** 5057 BDT  
-**Per Person Cost:** 1011.4 BDT  
-
----
-
-## ⚠ Limitations
+## Limitations
 
 - Low voltage output per step
 - Not ideal for very low-traffic areas
@@ -135,7 +117,7 @@ Install via Arduino Library Manager before uploading.
 
 ---
 
-## 🚀 Future Improvements
+## Future Improvements
 
 - Improved piezo materials
 - Encrypted RFID communication
@@ -143,7 +125,7 @@ Install via Arduino Library Manager before uploading.
 
 ---
 
-## 📄 Full Project Report
+## Project Report
 
 Detailed academic documentation available here:
 
@@ -151,22 +133,6 @@ Detailed academic documentation available here:
 
 ---
 
-## 🏁 Conclusion
-
-This project successfully demonstrates a sustainable and secure footstep-based energy harvesting system with integrated RFID authentication. Experimental validation confirms improved efficiency compared to traditional designs while maintaining low implementation cost.
-
----
-
-## 🪪 License
+## License
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
-
----
-
-## 👥 Contributors
-
-- S. S. Zobaer Ahmed
-- Arafat Hossain
-- Kazi T. H. Tanzil
-- Rajarshi Mondal
-- Niladri B. Riva
