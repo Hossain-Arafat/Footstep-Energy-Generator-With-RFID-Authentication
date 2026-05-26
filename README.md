@@ -29,7 +29,7 @@ Unlike traditional footstep generators, this system includes:
 
 ## System Architecture
 
-![Block Diagram](docs/Block_Diagram.png)
+![Block Diagram](images/Block_Diagram.png)
 
 ### System Flow
 
@@ -122,14 +122,6 @@ Install via Arduino Library Manager before uploading.
 - Improved piezo materials
 - Encrypted RFID communication
 - Field deployment testing
-
----
-
-## Project Report
-
-Detailed academic documentation available here:
-
-[`docs/Project_Report.pdf`](docs/Project_Report.pdf)
 
 ---
 
